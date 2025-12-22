@@ -242,7 +242,6 @@
         "item": "Indoor Pool",
         "url": "/assets/icons/lagoon-villa/pool.svg"
       },
-      { "item": "Pet Friendly", "url": "/assets/icons/lagoon-villa/pets.svg" },
       {
         "item": "Underfloor Heating",
         "url": "/assets/icons/lagoon-villa/underfloor-heating.png"
@@ -279,10 +278,6 @@
       {
         "item": "Beheizter Innenpool",
         "url": "/assets/icons/lagoon-villa/pool.svg"
-      },
-      {
-        "item": "Haustierfreundlich",
-        "url": "/assets/icons/lagoon-villa/pets.svg"
       },
       {
         "item": "Fußbodenheizung",

@@ -126,7 +126,7 @@ const Policies = () => {
                 management.
               </Translated>
             </li>
-            <li
+            {/* <li
               className={classNames("flex gap-2 flex-col", {
                 hidden: currentRoute !== "/keurbooms-lagoon-villa",
               })}
@@ -144,7 +144,7 @@ const Policies = () => {
               >
                 <Translated german="Herunterladen">Download</Translated>
               </Link>
-            </li>
+            </li> */}
           </ul>
         </div>
       </div>
