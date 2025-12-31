@@ -11,7 +11,7 @@ module.exports = {
         pathname: "/luna-blue/**",
       },
     ],
-    qualities: [60, 75],
+    qualities: [60, 65, 75],
   },
   reactStrictMode: true,
   i18n: {
