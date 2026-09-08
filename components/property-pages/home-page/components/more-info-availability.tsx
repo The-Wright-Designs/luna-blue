@@ -57,6 +57,7 @@ const MoreInfoAvailability = ({
             titleGerman="Über Plettenberg Bay"
             link="https://www.plett-tourism.co.za/"
             image={infoImageUrl}
+            eager
             buttonText="Read More"
             mobileButtonWidthEnglish="w-[158px]"
             mobileButtonWidthGerman="w-[167px]"

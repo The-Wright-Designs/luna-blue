@@ -177,22 +177,6 @@ const HomePage = ({ data }: DataProps) => {
         cssClasses="pt-4 mb-10 desktopSmall:mb-16"
         data={data.homePage}
       />
-      {currentRoute === "/keurbooms-lagoon-villa" && (
-        <div>
-          <h2 className="mb-8">
-            <Translated german="Besichtigen Sie unser Anwesen">
-              Tour Our Property
-            </Translated>
-          </h2>
-          <iframe
-            width="100%"
-            height="500px"
-            allowFullScreen={true}
-            allow="accelerometer magnetometer; gyroscope"
-            src="https://virtual.escapism.ai/en/embed/lASLweAL3I"
-          ></iframe>
-        </div>
-      )}
       <hr className="text-black my-10 desktopSmall:my-16" />
       <MoreInfoAvailability
         cssClasses="my-10 desktopSmall:my-16"

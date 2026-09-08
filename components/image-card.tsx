@@ -23,6 +23,7 @@ interface Props {
   link: string;
   targetBlank?: boolean;
   blankMobileCard?: boolean;
+  eager?: boolean;
 }
 
 const ImageCard = ({
@@ -39,6 +40,7 @@ const ImageCard = ({
   center,
   targetBlank,
   blankMobileCard,
+  eager,
 }: Props) => {
   const [cardMove, setCardMove] = useState(false);
 
@@ -54,6 +56,7 @@ const ImageCard = ({
         cssClasses="h-full w-full object-cover -mb-[275px] phone:-mb-[325px] tablet:-mb-[375px] tabletLarge:-mb-[475px] desktop:-mb-[400px]"
         phone={95}
         desktop={center ? 40 : 90}
+        eager={eager}
       />
 
       {/* mobile view */}
@@ -81,7 +84,7 @@ const ImageCard = ({
           {
             "tabletLarge:place-items-end": flip,
             "desktop:place-items-center": center,
-          }
+          },
         )}
       >
         <Link
@@ -97,7 +100,7 @@ const ImageCard = ({
               "pr-[80px]": !flip && !center,
               "pl-14": cardMove && !flip && !center,
               "pr-14": cardMove && flip && !center,
-            }
+            },
           )}
           target={targetBlank ? "_blank" : "_self"}
         >
